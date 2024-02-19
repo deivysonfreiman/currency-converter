@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background: #8A51FC;
+}
+
+.gif-logo {
+    width: 300px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.container {
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    width: 395px;
+    height: 750px;
+    margin: 40px auto;
+    flex-direction: column;
+    display: flex;
+    padding: 44px 24px 23px;
+}
+
+
+label {
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    
+    padding: 5px 0;
+}
+
+select {
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+option {
+    background-color: #481c8d;
+    color: #F4F4F4;
+}
+
+
+
+select, input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button {
+    border-radius: 5px;
+    background: #772FD3;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    padding: 13px;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+button:active {
+    opacity: .8;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    width: 347px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    padding: 15px 0;
+}
+
+.currency-box {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box2 {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.currency-value, .currency-value-converted {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 767px) {
+
+    .gif-logo {
+        width: 10rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .gif-logo {
+        width: 10rem;
+    }
+
+}
