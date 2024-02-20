@@ -6,5 +6,4 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css3">
 <br>
-<p><b>Site: <a href="currency-converter-devclub.netlify.app">CurrencyConverter</a></b></p>
 <img src="https://github.com/deivysonfreiman/currency-converter/blob/main/assets/Captura%20de%20tela%202024-02-20%20123722.png?raw=true" alt="project-image">
